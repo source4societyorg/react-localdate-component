@@ -7,7 +7,7 @@ const renderLocalDate = (timestamp, format, toTimezone) => (
 );
 
 const LocalDate = ({id: id, className: className, format: format, timestamp: timestamp, toTimezone: toTimezone}) => (
-    <span class={'localdate ' + className + ' ' + id}>
+    <span className={'localdate ' + className + ' ' + id}>
         {renderLocalDate(timestamp, format, toTimezone)}
     </span>
 )
